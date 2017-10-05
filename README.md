@@ -19,7 +19,13 @@ Here is a non-exhaustive list of a few reasons to use this library as the low le
 - Offers type safety on native side while communicating to JS side.
 - More than a bridge, it can be used as a message hub that allows react native apps / native modules intercommunication
 
-Read more about bridge [HERE](https://electrode.gitbooks.io/electrode-native/content/platform-parts/bridge.html#leveraging-the-bridge-with-apis)
+Read more about bridge [HERE](https://electrode.gitbooks.io/electrode-native/content/platform-parts/bridge.html)
+
+### React Native Version Compatibility
+
+| React Native Version | Bridge Version |
+| ------------- | -----|
+| 0.42+     | 1.5.0+ |
 
 ### Getting Started
 
@@ -29,12 +35,10 @@ Follow the steps below to start contributing to the bridge code.
 $ cd <workspace>
 $ git clone https://github.com/electrode-io/react-native-electrode-bridge.git
 $ cd react-native-electrode-bridge
-$ yarn install
-$ yarn add react-native@0.48.3
+$ yarn add react-native
 ```
 
 Now depending on which part of the bridge(Android|iOS|JS) you are working on open the code in respective IDEs.
-
 
 # How to use Electrode Native Bridge
 
